@@ -103,16 +103,16 @@ Una vez implementada y ejecutada la tarea, PsychoPy generará la carpeta `data/`
 ### Flujo de la tarea
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph SB["BIENVENIDA"]
         A["instrucciones"]
     end
 
     subgraph SP["PRÁCTICA"]
-        direction LR
+        direction TB
         B["instrucciones_practica"]
         subgraph LP["loop_practica · 20 ensayos"]
-            direction LR
+            direction TB
             P1["estimulo_practica<br/>Hasta 1000 ms"]
             P2["feedback_practica<br/>1000 ms"]
             P1 --> P2
@@ -127,10 +127,10 @@ flowchart LR
     end
 
     subgraph SE["EXPERIMENTAL"]
-        direction LR
+        direction TB
         E["instrucciones_experimental"]
         subgraph LE["loop_experimental · 80 ensayos"]
-            direction LR
+            direction TB
             E1["estimulo_experimental<br/>Hasta 1000 ms"]
             E2["ITI<br/>500 ms"]
             E1 --> E2
