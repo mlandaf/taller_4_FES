@@ -1,0 +1,21 @@
+# Archivos y metadatos generados por macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+__MACOSX/
+.Spotlight-V100/
+.Trashes/
+.TemporaryItems/
+.DocumentRevisions-V100/
+.fseventsd/
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+.apdisk
+Network Trash Folder/
+Temporary Items/
+
+# Resultados locales generados al ejecutar la tarea
+/data/
